@@ -1,0 +1,62 @@
+{
+  "Page Title": [
+    {
+      "type": "text",
+      "key": "title",
+      "value": "",
+      "placeholder": "Enter page title"
+    }
+  ],
+  "Bio": [
+    {
+      "type": "text",
+      "key": "bio",
+      "value": "Based on OpenAI API (gpt-3.5-turbo).",
+      "placeholder": "Enter the Bio",
+      "maxLen": 100
+    }
+  ],
+  "OpenAI API Key": [
+    {
+      "type": "text",
+      "key": "apiKey",
+      "value": "",
+      "placeholder": "Enter OpenAI API Key",
+      "regExp": "^sk-",
+      "regMsg": "Malformed api key"
+    }
+  ],
+  "Logo": [
+    {
+      "type": "text",
+      "key": "logo",
+      "value": "",
+      "placeholder": "Enter logo URL",
+      "regExp": "^http"
+    }
+  ],
+  "Avatar": [
+    {
+      "type": "text",
+      "key": "avatar",
+      "value": "",
+      "placeholder": "https://",
+      "regExp": "^http"
+    }
+  ],
+  "Button Link": [
+    {
+      "type": "text",
+      "key": "btnName",
+      "value": "",
+      "placeholder": "Enter the button name"
+    },
+    {
+      "type": "text",
+      "key": "btnLink",
+      "value": "",
+      "placeholder": "https://",
+      "regExp": "^http"
+    }
+  ]
+}

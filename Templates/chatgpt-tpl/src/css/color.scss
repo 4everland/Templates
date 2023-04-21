@@ -1,0 +1,48 @@
+.black { color: #000; }
+.gray-3 { color: #333; }
+.gray-5 { color: #54576a; }
+.gray-6 { color: #6c7789; }
+.gray-8 { color: #888; }
+.gray { color: #9AA5B4; }
+.gray-a { color: #aaa; }
+.gray-b { color: #bbb; }
+.gray-c0 { color: #C0C4CC; }
+
+.black-6 { color: rgba(0, 0, 0, .6);}
+
+.white { color: #fff; }
+.white-5 { color: rgba(255, 255, 255, .5); }
+.white-6 { color: rgba(255, 255, 255, .6); }
+.white-8 { color: rgba(255, 255, 255, .8)!important; }
+.white-9 { color: rgba(255, 255, 255, .9)!important; }
+
+.bg-black-3 { background: rgba(0, 0, 0, .3); }
+.bg-black-5 { background: rgba(0, 0, 0, .5); }
+.bg-black-2 { background: rgba(0, 0, 0, .18); }
+.bg-black { background: #000; }
+.bg-gray-3 { background: #333; }
+.bg-gray { background: #949FBA; }
+.bg-gray-e { background: #eee; }
+
+.bg-white { background: #fff !important;}
+.bg-white-5 { background: rgba(255, 255, 255, .5); }
+.bg-white-9 { background: rgba(255, 255, 255, .9); }
+.bg-n { background: none; }
+.bg-f9 { background: #F9FBFC; }
+.bg-f8 { background: #f8f8f8; }
+.bg-f6 { background: #f6f5f8; }
+.bg-f7 { background: #F7F9FB; }
+.bg-f5 { background: #F5F5F5; }
+.bg-f0 { background: #f0f0f0; }
+.bg-f4 { background: #f4f8fe; }
+.bg-d0 { background: #D0DAE9; }
+
+.red-1, .fail-1 { color: #ff6960; }
+.warn-1 { color: #f99536; }
+.suc-1 { color: #00bd9a; }
+.coin-1 { color: #f9b045; }
+.brown-1 { color: #9A2C0E; }
+
+.color-1 {
+  color: var(--van-button-primary-background);
+}

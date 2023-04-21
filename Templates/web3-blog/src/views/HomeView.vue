@@ -236,7 +236,7 @@ export default {
   methods: {
     getConfig() {
       this.axios
-        .get("/config.json")
+        .get("./config.json")
         .then((res) => {
           const { data } = res;
           this.config = data;
