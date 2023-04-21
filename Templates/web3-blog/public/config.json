@@ -1,0 +1,180 @@
+{
+  "Banner": [
+    {
+      "type": "text",
+      "key": "banner",
+      "value": "",
+      "placeholder": "https://(1440*220)"
+    }
+  ],
+  "Avatar": [
+    {
+      "type": "text",
+      "key": "avatar",
+      "value": "",
+      "placeholder": "https://(100*100)"
+    }
+  ],
+  "Name": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    }
+  ],
+  "Bio": [
+    {
+      "type": "text",
+      "key": "bio",
+      "value": "",
+      "placeholder": "Enter the bio"
+    }
+  ],
+  "Discord": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Instagram": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Facebook": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Telegram": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Twitter": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Mirror": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "YouTube": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Website": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Github": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Medium": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Linkedin": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Reddit": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Email": [
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "Enter the E-mail"
+    }
+  ],
+  "TwitterContent": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "YouTubeContent": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "MirrorContent": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ]
+}

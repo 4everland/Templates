@@ -1,0 +1,158 @@
+{
+  "Avatar": [
+    {
+      "type": "text",
+      "key": "avatar",
+      "value": "",
+      "placeholder": "https://(100*100)"
+    }
+  ],
+  "Name": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    }
+  ],
+  "Link1": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link2": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link3": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link4": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link5": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link6": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link7": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link8": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link9": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ],
+  "Link10": [
+    {
+      "type": "text",
+      "key": "name",
+      "value": "",
+      "placeholder": "Enter the name"
+    },
+    {
+      "type": "text",
+      "key": "link",
+      "value": "",
+      "placeholder": "https://"
+    }
+  ]
+}
