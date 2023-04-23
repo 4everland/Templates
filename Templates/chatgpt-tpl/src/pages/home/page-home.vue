@@ -187,7 +187,7 @@ export default {
           link: "https://github.com/Recommended-Templates/chatgpt-tpl",
         },
         {
-          text: "Deploy with 4everland",
+          text: "Deploy with 4EVERLAND",
           link: "https://www.4everland.org",
         },
         {
