@@ -40,20 +40,10 @@
     }
   ],
   "Instagram": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Facebook": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Telegram": [
     {
@@ -96,36 +86,16 @@
     }
   ],
   "Github": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Medium": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Linkedin": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Reddit": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
+    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
   ],
   "Email": [
     {

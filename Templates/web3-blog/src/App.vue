@@ -27,7 +27,7 @@
   margin: 0;
 }
 html {
-  background-color: #f9fbfc;
+  background-color: #f5f8f9;
 }
 #mintFooter {
   display: flex;
@@ -39,8 +39,9 @@ html {
 
   a {
     font-size: 14px;
-    color: #2a7eed;
+    color: #1d9bf0;
     text-decoration: none;
+    font-weight: 500;
   }
 }
 </style>
