@@ -4,9 +4,7 @@
       <div
         class="banner"
         :style="
-          config.Banner[0].value
-            ? 'background-image: url(' + config.Banner[0].value + ');'
-            : ''
+          config.banner ? 'background-image: url(' + config.banner + ');' : ''
         "
       ></div>
       <div class="info">
@@ -14,16 +12,14 @@
           <div class="avatar">
             <img
               :src="
-                config.Avatar[0].value
-                  ? config.Avatar[0].value
-                  : require('@/assets/head.png')
+                config.avatar ? config.avatar : require('@/assets/head.png')
               "
               alt=""
             />
           </div>
-          <div class="nickname">{{ config.Name[0].value }}</div>
+          <div class="nickname">{{ config.name }}</div>
           <div class="desc">
-            {{ config.Bio[0].value }}
+            {{ config.bio }}
           </div>
           <div class="media-box">
             <template v-for="item in mediaList">
@@ -41,8 +37,8 @@
               </div>
             </template>
             <a
-              v-if="config.Email[0].value"
-              :href="`mailto:${config.Email[0].value}`"
+              v-if="config.email"
+              :href="`mailto:${config.email}`"
               style="text-decoration: none"
             >
               <div class="media-item" style="background: #9747ff">
@@ -57,37 +53,29 @@
     <div class="main">
       <div
         class="tabs"
-        v-if="
-          config.YouTubeContent[1].value ||
-          config.MirrorContent[1].value ||
-          config.TwitterContent[1].value
-        "
+        v-if="config.YouTubeLink || config.MirrorLink || config.TwitterLink"
       >
-        <span class="tab" v-if="config.YouTubeContent[1].value">
-          <a href="#YouTube">{{
-            config.YouTubeContent[0].value || "YouTube"
-          }}</a>
+        <span class="tab" v-if="config.YouTubeLink">
+          <a href="#YouTube">{{ config.YouTubeName || "YouTube" }}</a>
         </span>
-        <span class="tab" v-if="config.MirrorContent[1].value">
-          <a href="#Mirror">{{ config.MirrorContent[0].value || "Mirror" }}</a>
+        <span class="tab" v-if="config.MirrorLink">
+          <a href="#Mirror">{{ config.MirrorName || "Mirror" }}</a>
         </span>
-        <span class="tab" v-if="config.TwitterContent[1].value">
-          <a href="#Twitter">{{
-            config.TwitterContent[0].value || "Twitter"
-          }}</a>
+        <span class="tab" v-if="config.TwitterLink">
+          <a href="#Twitter">{{ config.TwitterName || "Twitter" }}</a>
         </span>
       </div>
       <div class="container">
         <div class="flex-block">
           <div class="flex-left">
-            <div id="YouTube" v-if="config.YouTubeContent[1].value"></div>
-            <div class="block vlog" v-if="config.YouTubeContent[1].value">
+            <div id="YouTube" v-if="config.YouTubeLink"></div>
+            <div class="block vlog" v-if="config.YouTubeLink">
               <div class="title">
-                {{ config.YouTubeContent[0].value || "YouTube" }}
+                {{ config.YouTubeName || "YouTube" }}
               </div>
               <div class="aspect-video">
                 <iframe
-                  :src="formatYoutube(config.YouTubeContent[1].value)"
+                  :src="formatYoutube(config.YouTubeLink)"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -97,10 +85,10 @@
                 ></iframe>
               </div>
             </div>
-            <div id="Mirror" v-if="config.MirrorContent[1].value"></div>
-            <div class="block mirror" v-if="config.MirrorContent[1].value">
+            <div id="Mirror" v-if="config.MirrorLink"></div>
+            <div class="block mirror" v-if="config.MirrorLink">
               <div class="title">
-                {{ config.MirrorContent[0].value || "Mirror" }}
+                {{ config.MirrorName || "Mirror" }}
               </div>
               <div class="mirror-content">
                 <div
@@ -159,17 +147,14 @@
               </div>
             </div>
           </div>
-          <div id="Twitter" v-if="config.TwitterContent[1].value"></div>
-          <div class="block twitter" v-if="config.TwitterContent[1].value">
+          <div id="Twitter" v-if="config.TwitterLink"></div>
+          <div class="block twitter" v-if="config.TwitterLink">
             <div class="title">
-              {{ config.TwitterContent[0].value || "Twitter" }}
+              {{ config.TwitterName || "Twitter" }}
             </div>
             <div class="twitter-box">
               <blockquote class="twitter-tweet">
-                <a
-                  class="twitter-timeline"
-                  :href="config.TwitterContent[1].value"
-                ></a>
+                <a class="twitter-timeline" :href="config.TwitterLink"></a>
               </blockquote>
             </div>
           </div>
@@ -177,9 +162,7 @@
         <div
           class="empty"
           v-if="
-            !config.YouTubeContent[1].value &&
-            !config.MirrorContent[1].value &&
-            !config.TwitterContent[1].value
+            !config.YouTubeLink && !config.MirrorLink && !config.TwitterLink
           "
         >
           <img src="@/assets/empty.png" alt="" />
@@ -285,27 +268,34 @@ export default {
       this.axios
         .get("./config.json")
         .then((res) => {
+          let configObj = {};
           const { data } = res;
-          this.config = data;
-          if (data.Name[0].value) {
-            document.title = data.Name[0].value;
-          }
-          if (data.MirrorContent[1].value) {
-            this.getMirror(data.MirrorContent[1].value);
-          }
-          this.mediaList.forEach((item) => {
-            let key = item.name;
-            data[key].forEach((item2) => {
-              if (item2.key == "link") {
-                const isHttp = this.testHttp(item2.value);
-                if (item2.value && !isHttp) {
-                  return (item.link = "http://" + item2.value);
-                } else {
-                  return (item.link = item2.value);
-                }
+          data.config.forEach((item) => {
+            item.options.forEach((i) => {
+              if (i.class == "mediaList") {
+                this.mediaList.forEach((mediaItem) => {
+                  let key = mediaItem.name;
+                  if (i.key == key.toLocaleLowerCase()) {
+                    const isHttp = this.testHttp(i.value);
+                    if (i.value && !isHttp) {
+                      return (mediaItem.link = "http://" + i.value);
+                    } else {
+                      return (mediaItem.link = i.value);
+                    }
+                  }
+                });
+              } else {
+                configObj[i.key] = i.value;
               }
             });
           });
+          if (configObj.name) {
+            document.title = configObj.name;
+          }
+          if (configObj.MirrorLink) {
+            this.getMirror(configObj.MirrorLink);
+          }
+          this.config = configObj;
         })
         .catch((error) => {
           console.log(error);

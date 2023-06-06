@@ -1,150 +1,274 @@
 {
-  "Banner": [
+  "config": [
     {
-      "type": "text",
-      "key": "banner",
-      "value": "",
-      "placeholder": "https://(1440*220)"
-    }
-  ],
-  "Avatar": [
-    {
-      "type": "text",
-      "key": "avatar",
-      "value": "",
-      "placeholder": "https://(100*100)"
-    }
-  ],
-  "Name": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
-    }
-  ],
-  "Bio": [
-    {
-      "type": "text",
-      "key": "bio",
-      "value": "",
-      "placeholder": "Enter the bio"
-    }
-  ],
-  "Discord": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Instagram": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Facebook": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Telegram": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Twitter": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Mirror": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "YouTube": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Website": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Github": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Medium": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Linkedin": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Reddit": [
-    { "type": "text", "key": "link", "value": "", "placeholder": "https://" }
-  ],
-  "Email": [
-    {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "Enter the E-mail"
-    }
-  ],
-  "TwitterContent": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Banner",
+      "options": [
+        {
+          "type": "text",
+          "key": "banner",
+          "value": "",
+          "placeholder": "https://(1440*220)"
+        }
+      ],
+      "tag": "Basic Info"
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "YouTubeContent": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Avatar",
+      "options": [
+        {
+          "type": "text",
+          "key": "avatar",
+          "value": "",
+          "placeholder": "https://(100*100)"
+        }
+      ],
+      "tag": "Basic Info"
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "MirrorContent": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the name"
+        }
+      ],
+      "tag": "Basic Info"
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
+      "name": "Bio",
+      "options": [
+        {
+          "type": "text",
+          "key": "bio",
+          "value": "",
+          "placeholder": "Enter the bio"
+        }
+      ],
+      "tag": "Basic Info"
+    },
+    {
+      "name": "TwitterContent",
+      "options": [
+        {
+          "type": "text",
+          "key": "TwitterName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "TwitterLink",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ],
+      "tag": "Featured Content"
+    },
+    {
+      "name": "YouTubeContent",
+      "options": [
+        {
+          "type": "text",
+          "key": "YouTubeName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "YouTubeLink",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ],
+      "tag": "Featured Content"
+    },
+    {
+      "name": "MirrorContent",
+      "options": [
+        {
+          "type": "text",
+          "key": "MirrorName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "MirrorLink",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ],
+      "tag": "Featured Content"
+    },
+    {
+      "name": "Discord",
+      "options": [
+        {
+          "type": "text",
+          "key": "discord",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Instagram",
+      "options": [
+        {
+          "type": "text",
+          "key": "instagram",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Facebook",
+      "options": [
+        {
+          "type": "text",
+          "key": "facebook",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Telegram",
+      "options": [
+        {
+          "type": "text",
+          "key": "telegram",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Twitter",
+      "options": [
+        {
+          "type": "text",
+          "key": "twitter",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Mirror",
+      "options": [
+        {
+          "type": "text",
+          "key": "mirror",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "YouTube",
+      "options": [
+        {
+          "type": "text",
+          "key": "youTube",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Website",
+      "options": [
+        {
+          "type": "text",
+          "key": "website",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Github",
+      "options": [
+        {
+          "type": "text",
+          "key": "github",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Medium",
+      "options": [
+        {
+          "type": "text",
+          "key": "medium",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Linkedin",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkedin",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Reddit",
+      "options": [
+        {
+          "type": "text",
+          "key": "reddit",
+          "value": "",
+          "placeholder": "https://",
+          "class": "mediaList"
+        }
+      ],
+      "tag": "Social Links"
+    },
+    {
+      "name": "Email",
+      "options": [
+        {
+          "type": "text",
+          "key": "email",
+          "value": "",
+          "placeholder": "Enter the E-mail"
+        }
+      ],
+      "tag": "Social Links"
     }
   ]
 }
