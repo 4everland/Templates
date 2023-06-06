@@ -22,51 +22,66 @@ Example of a configuration item .json file
 
 ```json
 {
-  "Avatar": [
+  "config": [
     {
-      "type": "text",
-      "key": "avatar",
-      "value": "",
-      "placeholder": "https://(100*100)"
-    }
-  ],
-  "Name": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
-    }
-  ],
-  "Link1": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Avatar",
+      "options": [
+        {
+          "type": "text",
+          "key": "avatar",
+          "value": "",
+          "placeholder": "https://(100*100)"
+        }
+      ],
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-    "Link2": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the name"
+        }
+      ],
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
+      "name": "link1",
+      "options": [
+        {
+          "type": "text",
+          "key": "option1",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "option2",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ],
+    },
+    {
+      "name": "link2",
+      "options": [
+        {
+          "type": "text",
+          "key": "option3",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "option4",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     }
-  ],
+  ]
 }
+
 ```
 
 Configuration displayed at project deployment
