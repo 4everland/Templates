@@ -6,13 +6,11 @@
           <div class="avatar">
             <img
               :src="
-                config.Avatar[0].value
-                  ? config.Avatar[0].value
-                  : require('@/assets/head.png')
+                config.avatar ? config.avatar : require('@/assets/head.png')
               "
               alt=""
             />
-            <div class="nickname">{{ config.Name[0].value }}</div>
+            <div class="nickname">{{ config.name }}</div>
           </div>
         </div>
       </div>
@@ -23,10 +21,10 @@
           v-for="(item, index) in mediaList"
           :key="index"
           class="item-img-box"
-          @click="goMedia(item[1].value)"
+          @click="goMedia(item.linkHref)"
         >
           <div class="partner-item-name">
-            {{ item[0].value }}
+            {{ item.linkName }}
           </div>
           <img class="share-icon" src="@/assets/share.png" alt="" />
         </div>
@@ -42,6 +40,7 @@ export default {
   data() {
     return {
       config: null,
+      mediaList: [],
     };
   },
   created() {},
@@ -53,27 +52,52 @@ export default {
       this.axios
         .get("./config.json")
         .then((res) => {
-          const { data } = res;
-          if (data.Name[0].value) {
-            document.title = data.Name[0].value;
-          }
+          let configObj = {};
           let Arr = [];
-          Object.keys(data).forEach((key) => {
-            if (key.indexOf("Link") !== -1) {
-              if (data[key][1].value) {
-                Arr.push(data[key]);
+          const { data } = res;
+          data.config.forEach((item, index) => {
+            let navObj = {};
+            item.options.forEach((i) => {
+              configObj[i.key] = i.value;
+              if (i.key.indexOf("linkName") != -1) {
+                if (i.value) {
+                  navObj.linkName = i.value;
+                }
               }
+              if (i.key.indexOf("linkHref") != -1) {
+                const isHttp = this.testHttp(i.value);
+                if (i.value && !isHttp) {
+                  navObj.linkHref = "http://" + i.value;
+                } else {
+                  navObj.linkHref = i.value;
+                }
+              }
+            });
+            Arr[index] = navObj;
+          });
+          if (configObj.name) {
+            document.title = configObj.name;
+          }
+          this.config = configObj;
+
+          this.mediaList = Arr.filter((item) => {
+            if (item.linkHref) {
+              return item;
             }
           });
-          this.config = data;
-          this.mediaList = Arr;
         })
         .catch((error) => {
           console.log(error);
         });
     },
     goMedia(link) {
+      console.log(link);
       window.open(link);
+    },
+    testHttp(link) {
+      let httpRegex = /(http|https):\/\/([\w.]+\/?)\S*/;
+      const httpMatch = httpRegex.exec(link);
+      return httpMatch;
     },
   },
 };

@@ -1,158 +1,196 @@
 {
-  "Avatar": [
+  "config": [
     {
-      "type": "text",
-      "key": "avatar",
-      "value": "",
-      "placeholder": "https://(100*100)"
-    }
-  ],
-  "Name": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
-    }
-  ],
-  "Link1": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Avatar",
+      "options": [
+        {
+          "type": "text",
+          "key": "avatar",
+          "value": "",
+          "placeholder": "https://(100*100)"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link2": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the name"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link3": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link1",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName1",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref1",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link4": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link2",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName2",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref2",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link5": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link3",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName3",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref3",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link6": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link4",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName4",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref4",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link7": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link5",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName5",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref5",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link8": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link6",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName6",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref6",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link9": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link7",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName7",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref7",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
-    }
-  ],
-  "Link10": [
-    {
-      "type": "text",
-      "key": "name",
-      "value": "",
-      "placeholder": "Enter the name"
+      "name": "link8",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName8",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref8",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     },
     {
-      "type": "text",
-      "key": "link",
-      "value": "",
-      "placeholder": "https://"
+      "name": "link9",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName9",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref9",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link10",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName10",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref10",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
     }
   ]
 }
