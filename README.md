@@ -4,7 +4,7 @@ Aims to increase collaboration with developers, ignite community building, and p
 
 # Process
 
-Before starting template development, please make sure you have read this article completely and understand how to set configuration options in the template code (as shown in the example). Once your template development is complete, the next step is to fill out and submit this form: https://forms.gle/pQ14y488WyLCrhRd6
+Before starting template development, please make sure you have read this article completely and understand [how to set configuration options](https://docs.4everland.org/hositng/guides/site-deployment/templates-configuration-file) in the template code (as shown in the example). Once your template development is complete, the next step is to fill out and submit this form: https://forms.gle/pQ14y488WyLCrhRd6
 After submission, community developers will review the code, and if approved, the project will be included in the collection.
 
 # Specification
