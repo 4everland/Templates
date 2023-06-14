@@ -38,7 +38,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
 2. Configure the basic information of the frontend.
 
-   ![](https://markdown.4everland.store/2-1.png"Provide a name for your Liquity frontend.")
+   ![](https://markdown.4everland.store/2-1.png)
 
     #####                                                                 Provide a name for your Liquity frontend.
 
