@@ -16,7 +16,7 @@ Learn more about Liquity [here](https://www.liquity.org/)
 
 # About Liquity Frontend Operators
 
-Liquity Frontend Operators is a template built by 4EVERLAND based on [liquity/dev](https://github.com/liquity/dev), designed for fast and easy setup of frontend operators. This customizable template allows operators to configure their frontend's name, avatar, and rebate address. With just a few simple steps, operators can quickly build their frontend and start earning LQTY rewards. Additionally, 4EVERLAND offers domain binding and multiple deployment platform options to meet your decentralized customization needs.
+Liquity Frontend Operators is a template built by 4EVERLAND based on [liquity/dev](https://github.com/liquity/dev), designed for fast and easy setup of frontend operators. This customizable template allows operators to configure their frontend's name, avatar, and Kickback address. With just a few simple steps, operators can quickly build their frontend and start earning LQTY rewards. Additionally, 4EVERLAND offers domain binding and multiple deployment platform options to meet your decentralized customization needs.
 
 
 
@@ -66,7 +66,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
    
 
-4. Access to Liquity and set the rebate rate.
+4. Access to Liquity and set the Kickback rate.
 
    ![](https://markdown.4everland.store/4-2.jpeg)
 
@@ -77,7 +77,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
    ![](https://markdown.4everland.store/4.jpeg)
 
-   ##### Set the rebate rate using the Kickback Address.
+   ##### Set the Kickback rate using the Kickback Address.
 
    
 
