@@ -24,7 +24,7 @@ Liquity Frontend Operators is a template built by 4EVERLAND based on [liquity/de
 
 Deploy your Liquity frontend with 4EVERLAND
 
-[Deploy](111111)
+[![Deploy with 4EVERLAND](https://4ever-web.4everland.store/img/deploy.svg)](https://dashboard.4everland.org/hosting/new?type=web3Tpl&id=648969cd7867327d3e8db65d)
 
 
 
