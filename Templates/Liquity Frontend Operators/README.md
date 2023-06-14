@@ -40,7 +40,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
    ![](https://markdown.4everland.store/2-1.png)
 
-    #####                                                                 Provide a name for your Liquity frontend.
+    ##### Provide a name for your Liquity frontend.
 
    
 
@@ -48,7 +48,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
    
 
-                #####                                                            Configure a unique avatar by using an image link.
+    ##### Configure a unique avatar by using an image link.
 
    
 
@@ -56,7 +56,7 @@ Deploy your Liquity frontend with 4EVERLAND
 
    ![](https://markdown.4everland.store/2-3.png)
 
-   #####                                            Enter the frontend operator's wallet address to receive LQTY rewards.
+   ##### Enter the frontend operator's wallet address to receive LQTY rewards.
 
    
 
@@ -70,13 +70,14 @@ Deploy your Liquity frontend with 4EVERLAND
 
    ![](https://markdown.4everland.store/4-2.jpeg)
 
-   #####                                                                                             Access to Liquity.
+   ##### Access to Liquity.
+   
 
    
 
    ![](https://markdown.4everland.store/4.jpeg)
 
-   #####                                                                   Set the rebate rate using the Kickback Address.
+   ##### Set the rebate rate using the Kickback Address.
 
    
 
@@ -84,6 +85,6 @@ Deploy your Liquity frontend with 4EVERLAND
 
    ![](https://markdown.4everland.store/5.jpeg)
 
-   #####                                              Deployment completed! Now you can start promoting your frontend.
+   ##### Deployment completed! Now you can start promoting your frontend.
 
    
