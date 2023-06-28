@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Web3 Navigator</title>
+    <!-- <link rel="shortcut icon" href="../ico.ico" /> -->
+    <link rel="icon" href="data:image/ico;base64,aWNv" />
+
+    <link
+      rel="stylesheet"
+      id="iconfont-css"
+      href="static/css/iconfont.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="static/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="style-css"
+      href="static/css/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <script src="static/js/jquery.min.js" id="jquery-js"></script>
+  </head>
+  <body class="user-bookmark-body bookmark-default">
+    <div class="page-container">
+      <div class="bookmark-bg">
+        <div class="img-bg" id="img-bg"></div>
+        <div class="gradient-linear"></div>
+      </div>
+      <header class="navbar navbar-dark fixed-top">
+        <!-- <div class="weather">
+          <div id="he-plugin-simple" style="display: contents"></div>
+          <script>
+            WIDGET = {
+              CONFIG: {
+                modules: "02",
+                background: "5",
+                tmpColor: "FFFFFF",
+                tmpSize: "20",
+                cityColor: "FFFFFF",
+                citySize: "16",
+                aqiColor: "FFFFFF",
+                aqiSize: "16",
+                weatherIconSize: "30",
+                alertIconSize: "18",
+                padding: "0px 5px 0px 5px",
+                shadow: "0",
+                language: "auto",
+                fixed: "false",
+                vertical: "top",
+                horizontal: "left",
+                key: "257fe54e3a0b4cd29b399d2831bd56e0",
+              },
+            };
+          </script>
+          <script
+            src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"
+            defer=""
+          ></script>
+        </div> -->
+      </header>
+      <div class="header-big mb-4">
+        <div class="s-search">
+          <div id="search" class="s-search mx-auto">
+            <div class="big-title text-center mb-3 mb-md-5 mt-2">
+              <p class="h1" style="letter-spacing: 6px">Web3 Navigator</p>
+            </div>
+            <form
+              action="/search.html?key="
+              method="get"
+              target="_blank"
+              class="super-search-fm"
+            >
+              <input
+                type="text"
+                id="search-text"
+                class="form-control smart-tips search-key"
+                zhannei=""
+                placeholder=""
+                style="outline: 0"
+                autocomplete="off"
+              />
+              <button type="submit">
+                <i class="iconfont icon-search"></i>
+              </button>
+            </form>
+            <div id="search-list" class="hide-type-list">
+              <div class="search-group group-b s-current">
+                <ul class="search-type">
+                  <li>
+                    <input
+                      checked="checked"
+                      hidden=""
+                      type="radio"
+                      name="type"
+                      id="type-google1"
+                      value="https://www.google.com/search?q="
+                      data-placeholder=""
+                    /><label for="type-google1"
+                      ><span class="text-muted">Google</span></label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      hidden=""
+                      type="radio"
+                      name="type"
+                      id="type-bing1"
+                      value="https://cn.bing.com/search?q="
+                      data-placeholder=""
+                    /><label for="type-bing1"
+                      ><span class="text-muted">Bing</span></label
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card search-smart-tips" style="display: none">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="quick-sites position-relative">
+        <div class="container text-center px-5">
+          <div id="NavBox" class="row"></div>
+        </div>
+      </section>
+
+      <!-- <footer class="main-footer footer-type-1 position-relative text-xs">
+        <div id="footer-tools" class="d-flex flex-column">
+          <div id="footer-tools" class="d-flex flex-column">
+            <a
+              href="javascript:"
+              id="go-to-up"
+              class="btn rounded-circle go-up m-1"
+              rel="go-top"
+              style="display: none"
+              one-link-mark="yes"
+            >
+              <i class="iconfont icon-to-up"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="footer-inner text-center text-light my-3"
+          style="color: #f8f9fa45 !important"
+        >
+          <div class="footer-text">
+            <a
+              href="https://4everland.org"
+              target="_blank"
+              style="margin: 0 10px"
+            >
+              Powered by 4EVERLAND</a
+            >
+            <span>|</span>
+            <a
+              href="https://dashboard.4everland.org"
+              target="_blank"
+              style="margin: 0 10px"
+              >Try yourself</a
+            >
+          </div>
+        </div>
+      </footer> -->
+    </div>
+    <script src="static/js/bing.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js" id="bootstrap-js"></script>
+    <script src="static/js/theia-sticky-sidebar.js"></script>
+    <script src="static/js/lazyload.min.js" id="lazyload-js"></script>
+    <script src="static/js/app.min.js" id="appjs-js"></script>
+    <script>
+      $(document).ready(function () {
+        $.ajax({
+          url: "./config.json",
+          type: "GET",
+          dataType: "json",
+          success: function (data) {
+            let configObj = {};
+            let Arr = [];
+            data.config.forEach((item, index) => {
+              let navObj = {};
+              item.options.forEach((i) => {
+                configObj[i.key] = i.value;
+                if (i.key.indexOf("linkName") != -1) {
+                  if (i.value) {
+                    navObj.linkName = i.value;
+                  }
+                }
+                if (i.key.indexOf("linkHref") != -1) {
+                  if (i.value) {
+                    navObj.linkHref = i.value;
+                  }
+                }
+                if (i.key.indexOf("linkIcon") != -1) {
+                  if (i.value) {
+                    navObj.linkIcon = i.value;
+                  }
+                }
+              });
+              Arr[index] = navObj;
+            });
+            if (configObj.name) {
+              document.title = configObj.name;
+              $(".big-title").find("p").text(configObj.name);
+            }
+            let mediaList = Arr.filter((item) => {
+              if (item.linkHref) {
+                return item;
+              }
+            });
+            $.each(mediaList, function (i, item) {
+              let htmlStr = `<a
+              class="sites-btn col-3 col-md-2 text-center mb-4"
+              target="_blank"
+              href="${item.linkHref}"
+              title="${item.linkName}"
+              rel=" noopener"
+            >
+              <div class="d-flex mb-2">
+                <div class="sites-icon mx-auto ub-blur-bg">
+                  <img
+                    class="lazy"
+                    src="${item.linkIcon || "ico/icon.png"}"
+                    data-src="${item.linkIcon}"
+                    onerror="javascript:this.src='${item.linkIcon}'"
+                    alt="${item.linkName}"
+                  />
+                </div>
+              </div>
+              <div class="sites-title ub-blur-bg px-2 text-xs overflowClip_1">
+                <span>${item.linkName}</span>
+              </div>
+            </a>`;
+              $("#NavBox").append(htmlStr);
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

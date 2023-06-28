@@ -1,0 +1,236 @@
+{
+  "config": [
+    {
+      "name": "project1",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "4everLand",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "https://4everland.org/",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "A Web3 cloud computing platform with global acceleration, privacy protection, distributed storage, and other technical features. Build a Web3 application easily, efficiently, and cost-effectively on 4EVERLAND",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "https://wiki.4everland.store/img/4everland.png",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project2",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "zkSync",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "https://zksync.io/",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "zkSync is a scaling and privacy engine for Ethereum with functionality scope including transfers of ETH and ERC20 tokens in the Ethereum network, atomic swaps and limit orders, plus native L2 NFT support. zkSync is developed on zkRollup architecture and was created by Matter Labs.",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "https://wiki.4everland.store/img/zksync.png",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project3",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project4",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project5",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project6",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project7",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    },
+    {
+      "name": "project8",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the project name"
+        },
+        {
+          "type": "text",
+          "key": "link",
+          "value": "",
+          "placeholder": "https:// | project website link"
+        },
+        {
+          "type": "text",
+          "key": "description",
+          "value": "",
+          "placeholder": "Enter the project Description"
+        },
+        {
+          "type": "text",
+          "key": "log",
+          "value": "",
+          "placeholder": "https:// | project log url , You can upload pictures using 4everland"
+        }
+      ]
+    }
+  ]
+}

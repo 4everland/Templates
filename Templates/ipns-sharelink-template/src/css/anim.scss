@@ -1,0 +1,30 @@
+.trans-200 {
+  transition: all ease 200ms;
+}
+.trans-300 {
+  transition: all ease 300ms;
+}
+
+.tr-origin-0 {
+  transform-origin: 0 0;
+}
+.scale-9 {
+  transform: scale(.9);
+}
+.scale-8 {
+  transform: scale(.8);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.anim-shine {
+  animation: anim_shine 0.6s linear 3;
+}
+@keyframes anim_shine {
+  from {opacity: .5;}
+  to {opacity: 1;}
+}

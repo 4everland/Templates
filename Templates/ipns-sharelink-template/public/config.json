@@ -1,0 +1,100 @@
+{
+  "config": [
+    {
+       "name": "Website Name",
+       "options": [
+          {
+              "type":"text",
+              "key":"websiteName",
+              "value":"IPNS LinkShare",
+              "placeholder":"Enter the website name"
+          }
+       ],
+       "tag": "Website Basic Info"
+    },
+     {
+       "name": "Avatar",
+       "options": [
+          {
+              "type":"text",
+              "key":"avatar",
+              "value":"https://4evernodelete.4everland.store/271686120104_.pic.jpg",
+              "placeholder":"Enter the avatar"
+          }
+       ],
+       "tag": "Website Basic Info"
+
+    },
+    {
+       "name": "Bio",
+       "options": [
+          {
+              "type":"text",
+              "key":"bio",
+              "value":"A website template for convenient sharing of IPNS resources.",
+              "placeholder":"Enter the bio"
+          }
+       ],
+       "tag": "Website Basic Info"
+
+    },
+     {
+       "name": "IPNS Gateway",
+       "options": [
+          {
+              "type":"text",
+              "key":"ipnsGateway",
+              "value":"",
+              "placeholder":"Enter the IPNS gateway,like https://4everland.io/"
+          }
+       ],
+       "tag": "IPNS Resource Settings"
+    },
+    {
+       "name": "IPFS Gateway",
+       "options": [
+          {
+              "type":"text",
+              "key":"ipfsGateway",
+              "value":"",
+              "placeholder":"Enter the IPFS gateway,like https://ipfs.4everland.io/"
+          }
+       ],
+       "tag": "IPNS Resource Settings"
+    },
+    {
+       "name": "IPNS Resources",
+       "options": [
+          {
+              "type":"table",
+              "key":"ipnsResourceTable",
+              "headers": [
+                {
+                  "text": "Resource name",
+                  "value": "name"
+                },
+                {
+                  "text": "IPNS/Root CID",
+                  "value": "ipns"
+                }
+              ],
+              "items": [
+              ]
+          }
+       ],
+       "tag": "IPNS Resource Settings"
+    },
+    {
+      "name": "Display IPNS Input",
+       "options": [
+          {
+              "type":"switch",
+              "key":"displaySwitch",
+              "value":true,
+              "text": "Display the IPNS input field and allow users to enter other IPNS?"
+          }
+       ],
+       "tag": "IPNS Resource Settings"
+    }
+  ]
+}

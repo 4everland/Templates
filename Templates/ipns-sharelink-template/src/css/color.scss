@@ -1,0 +1,161 @@
+.black {
+  color: #000;
+}
+.gray-3 {
+  color: #333;
+}
+.gray-5 {
+  color: #54576a;
+}
+.gray-6 {
+  color: #6c7789;
+}
+.gray-8 {
+  color: #888;
+}
+.gray-89 {
+  color: #898989;
+}
+.gray {
+  color: #9aa5b4;
+}
+.gray-a {
+  color: #aaa;
+}
+.gray-b {
+  color: #bbb;
+}
+.gray-c0 {
+  color: #c0c4cc;
+}
+.el-label-1 {
+  color: #99a9bf;
+}
+
+.black-6 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.white {
+  color: #fff;
+}
+.white-5 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.white-6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.white-8 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.white-9 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.bg-black-3 {
+  background: rgba(0, 0, 0, 0.3);
+}
+.bg-black-5 {
+  background: rgba(0, 0, 0, 0.5);
+}
+.bg-black-2 {
+  background: rgba(0, 0, 0, 0.18);
+}
+.bg-black {
+  background: #000;
+}
+.bg-gray-3 {
+  background: #333;
+}
+.bg-gray {
+  background: #949fba;
+}
+.bg-gray-e {
+  background: #eee;
+}
+.bg-white {
+  background: #fff !important;
+}
+.bg-white-5 {
+  background: rgba(255, 255, 255, 0.5);
+}
+.bg-white-9 {
+  background: rgba(255, 255, 255, 0.9);
+}
+.bg-n {
+  background: none;
+}
+.bg-f9 {
+  background: #f9fbfc;
+}
+.bg-f8 {
+  background: #f8f8f8;
+}
+.bg-f8a {
+  background: #f8fafb;
+}
+.bg-f6 {
+  background: #f6f5f8;
+}
+.bg-f7 {
+  background: #f7f9fb;
+}
+.bg-f5 {
+  background: #f5f5f5;
+}
+.bg-f0 {
+  background: #f0f0f0;
+}
+.bg-f4 {
+  background: #f4f8fe;
+}
+.bg-d0 {
+  background: #d0dae9;
+}
+.bdc-d0 {
+  border-color: #d0dae9;
+}
+.bg-hover-f8a {
+  line-height: 1;
+  &:hover {
+    background: #f8fafb;
+  }
+}
+.bg-hover-f9 {
+  cursor: pointer;
+  &:hover {
+    background: #fdfdfd;
+  }
+}
+.bg-red-1 {
+  background: #ff6960;
+  color: #fff;
+}
+
+.red-1,
+.fail-1 {
+  color: #ff6960;
+}
+.warn-1 {
+  color: #f99536;
+}
+.suc-1 {
+  color: #00bd9a;
+}
+
+.red-2 {
+  color: #d66767;
+}
+.gray-7 {
+  color: #7e8ea8;
+}
+
+.link-2 {
+  color: #021c73;
+}
+.purple-1 {
+  color: #100d58;
+}
+.link {
+  color: #34a9ff;
+}

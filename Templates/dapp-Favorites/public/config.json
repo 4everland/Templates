@@ -1,0 +1,105 @@
+{
+  "config":[
+    {
+      "name": "Avatar",
+      "options": [
+        {
+          "type": "text",
+          "key": "avatar",
+          "value": "",
+          "placeholder": "https://(100*100)"
+        }
+      ]
+    },
+    {
+      "name": "DappFavorites",
+      "options": [
+        {
+          "type":"table",
+          "key":"addDappFavoritesTable",
+          "headers": [
+            {
+              "text": "Project Name",
+              "value": "name"
+            },
+            {
+              "text": "Project Label",
+              "value": "lable"
+            },
+            {
+              "text": "Project Description",
+              "value": "description"
+            },
+            {
+              "text": "Project Logo",
+              "value": "logo"
+            },
+            {
+              "text": "Project Websit Link",
+              "value": "link"
+            }
+          ],
+          "items": [
+            {
+              "name": "4everLand",
+              "lable": "Web3",
+              "description": "A Web3 cloud computing platform with global acceleration, privacy protection, distributed storage, and other technical features. Build a Web3 application easily, efficiently, and cost-effectively on 4EVERLAND",
+              "logo": "https://wiki.4everland.store/img/4everland.png",
+              "link": "https://4everland.org/"
+            },
+            {
+              "name": "zkSync",
+              "lable": "L2",
+              "description": "zkSync is a scaling and privacy engine for Ethereum with functionality scope including transfers of ETH and ERC20 tokens in the Ethereum network, atomic swaps and limit orders, plus native L2 NFT support. zkSync is developed on zkRollup architecture and was created by Matter Labs.",
+              "logo": "https://wiki.4everland.store/img/zksync.png",
+              "link": "https://zksync.io/"
+            },
+            {
+              "name": "Lens Protocol",
+              "lable": "social",
+              "description": "Lens Protocol is a composable and permissionless social graph built on top of the Polygon blockchain that allows users to build their own social platforms for Web3.",
+              "logo": "https://wiki.4everland.store/img/LensProtocol.png",
+              "link": "https://www.lens.xyz/"
+            },
+            {
+              "name": "Ethereum Name Service (ENS)",
+              "lable": "Web3",
+              "description": "The Ethereum Name Service (ENS) is essentially a distributed, open as well as and extensible naming system that is based on the Ethereum blockchain, with the main goal of mapping human-readable names to machine-readable identifiers in the form of Ethereum addresses, other cryptocurrency addresses, content hashes, or metadata.The Ethereum Name Service (ENS) is essentially a distributed, open as well as and extensible naming system that is based on the Ethereum blockchain, with the main goal of mapping human-readable names to machine-readable identifiers in the form of Ethereum addresses, other cryptocurrency addresses, content hashes, or metadata.",
+              "logo": "https://wiki.4everland.store/img/ens.jpeg",
+              "link": "https://ens.domains/"
+            },
+            {
+              "name": "4everLand",
+              "lable": "Web3",
+              "description": "A Web3 cloud computing platform with global acceleration, privacy protection, distributed storage, and other technical features. Build a Web3 application easily, efficiently, and cost-effectively on 4EVERLAND",
+              "logo": "https://wiki.4everland.store/img/4everland.png",
+              "link": "https://4everland.org/"
+            },
+            {
+              "name": "zkSync",
+              "lable": "L2",
+              "description": "zkSync is a scaling and privacy engine for Ethereum with functionality scope including transfers of ETH and ERC20 tokens in the Ethereum network, atomic swaps and limit orders, plus native L2 NFT support. zkSync is developed on zkRollup architecture and was created by Matter Labs.",
+              "logo": "https://wiki.4everland.store/img/zksync.png",
+              "link": "https://zksync.io/"
+            },
+            {
+              "name": "Lens Protocol",
+              "lable": "social",
+              "description": "Lens Protocol is a composable and permissionless social graph built on top of the Polygon blockchain that allows users to build their own social platforms for Web3.",
+              "logo": "https://wiki.4everland.store/img/LensProtocol.png",
+              "link": "https://www.lens.xyz/"
+            },
+            {
+              "name": "Ethereum Name Service (ENS)",
+              "lable": "Web3",
+              "description": "The Ethereum Name Service (ENS) is essentially a distributed, open as well as and extensible naming system that is based on the Ethereum blockchain, with the main goal of mapping human-readable names to machine-readable identifiers in the form of Ethereum addresses, other cryptocurrency addresses, content hashes, or metadata.The Ethereum Name Service (ENS) is essentially a distributed, open as well as and extensible naming system that is based on the Ethereum blockchain, with the main goal of mapping human-readable names to machine-readable identifiers in the form of Ethereum addresses, other cryptocurrency addresses, content hashes, or metadata.",
+              "logo": "https://wiki.4everland.store/img/ens.jpeg",
+              "link": "https://ens.domains/"
+            }
+          ],
+          "maxLength": 100
+        }
+      ]
+    }
+  ]
+}

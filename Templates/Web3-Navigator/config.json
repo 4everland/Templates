@@ -1,0 +1,304 @@
+{
+  "config": [
+    {
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter your navigator page name"
+        }
+      ],
+      "tag": "Basic Info"
+    },
+    {
+      "name": "link1",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName1",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref1",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon1",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link2",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName2",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref2",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon2",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link3",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName3",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref3",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon3",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link4",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName4",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref4",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon4",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link5",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName5",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref5",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon5",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link6",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName6",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref6",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon6",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link7",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName7",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref7",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon7",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link8",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName8",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref8",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon8",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link9",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName9",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref9",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon9",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link10",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName10",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref10",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon10",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link11",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName11",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref11",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon11",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    },
+    {
+      "name": "link12",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName12",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref12",
+          "value": "",
+          "placeholder": "Enter the website link"
+        },
+        {
+          "type": "text",
+          "key": "linkIcon12",
+          "value": "",
+          "placeholder": "Enter the icon link"
+        }
+      ],
+      "tag": "Links"
+    }
+  ]
+}
