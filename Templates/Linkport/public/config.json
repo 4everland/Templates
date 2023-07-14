@@ -1,0 +1,196 @@
+{
+  "config": [
+    {
+      "name": "Avatar",
+      "options": [
+        {
+          "type": "text",
+          "key": "avatar",
+          "value": "",
+          "placeholder": "https://(100*100)"
+        }
+      ]
+    },
+    {
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "",
+          "placeholder": "Enter the name"
+        }
+      ]
+    },
+    {
+      "name": "link1",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link2",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link3",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link4",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link5",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link6",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link7",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link8",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link9",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "link10",
+      "options": [
+        {
+          "type": "text",
+          "key": "linkName",
+          "value": "",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref",
+          "value": "",
+          "placeholder": "https://"
+        }
+      ]
+    }
+  ]
+}

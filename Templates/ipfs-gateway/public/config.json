@@ -1,0 +1,100 @@
+{
+  "config": [
+    {
+      "name": "Website Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "websiteName",
+          "value": "IPFS Gateway",
+          "placeholder": "Enter the website name"
+        }
+      ],
+      "tag": "Website Basic Info"
+    },
+    {
+      "name": "Homepage background",
+      "options": [
+        {
+          "type": "text",
+          "key": "background",
+          "value": "",
+          "placeholder": "https://(1440*960)"
+        }
+      ],
+      "tag": "Website Basic Info"
+    },
+    {
+      "name": "Gateway list",
+      "options": [
+        {
+          "type": "table",
+          "key": "ipfsGateway",
+          "headers": [
+            {
+              "text": "IPFS Gateway",
+              "value": "ipfs"
+            }
+          ],
+          "items": [
+            { "ipfs": "https://ipfs.4everland.io/" },
+            { "ipfs": "https://cloudflare-ipfs.com/" },
+            { "ipfs": "https://gateway.ipfs.io/" },
+            { "ipfs": "https://dweb.link/" },
+            { "ipfs": "https://gateway.pinata.cloud/" },
+            { "ipfs": "https://ipfs.runfission.com/" }
+          ]
+        }
+      ],
+      "tag": "IPFS Gateway Settings"
+    },
+    {
+      "name": "Top advertising code",
+      "options": [
+        {
+          "type": "text",
+          "key": "topAd",
+          "value": "<img src='/horizontal.png' />",
+          "placeholder": "Please enter the ad code in html format"
+        }
+      ],
+      "tag": "Advertising"
+    },
+    {
+      "name": "Left-side advertising code",
+      "options": [
+        {
+          "type": "text",
+          "key": "leftAd",
+          "value": "<img src='/vertical.png' />",
+          "placeholder": "Please enter the ad code in html format"
+        }
+      ],
+      "tag": "Advertising"
+    },
+    {
+      "name": "Right-side advertising code",
+      "options": [
+        {
+          "type": "text",
+          "key": "rightAd",
+          "value": "<img src='/vertical.png' />",
+          "placeholder": "Please enter the ad code in html format"
+        }
+      ],
+      "tag": "Advertising"
+    },
+    {
+      "name": "Bottom advertising code",
+      "options": [
+        {
+          "type": "text",
+          "key": "bottomAd",
+          "value": "<img src='/horizontal.png' />",
+          "placeholder": "Please enter the ad code in html format"
+        }
+      ],
+      "tag": "Advertising"
+    }
+  ]
+}

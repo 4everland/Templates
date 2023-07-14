@@ -1,0 +1,24 @@
+.trans-200 {
+  transition: all ease 200ms;
+}
+.trans-300 {
+  transition: all ease 300ms;
+}
+
+.scale-9 {
+  transform: scale(.9);
+}
+.scale-8 {
+  transform: scale(.8);
+}
+.mirror {
+  transform: rotateY(180deg);
+}
+
+.anim-rotate {
+  animation: anim_rotate 3s linear infinite;
+}
+@keyframes anim_rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

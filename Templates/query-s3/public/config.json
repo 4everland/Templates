@@ -1,0 +1,48 @@
+{
+  "config": [
+    {
+      "name": "Page Title",
+      "options": [
+        {
+          "type": "text",
+          "key": "title",
+          "value": "Bucket Manager",
+          "placeholder": "Enter page title"
+        }
+      ]
+    },
+    {
+      "name": "Bucket API Key",
+      "options": [
+        {
+          "type": "text",
+          "key": "apiKey",
+          "value": "",
+          "placeholder": "Enter Bucket API Key"
+        }
+      ]
+    },
+    {
+      "name": "Bucket API Secret",
+      "options": [
+        {
+          "type": "text",
+          "key": "apiSecret",
+          "value": "",
+          "placeholder": "Enter Bucket API Secret"
+        }
+      ]
+    },
+    {
+      "name": "Bucket Name(Optional)",
+      "options": [
+        {
+          "type": "text",
+          "key": "bucketName",
+          "value": "",
+          "placeholder": "Enter the Bucket Name separated by commas.（Load all by default)"
+        }
+      ]
+    }
+  ]
+}
