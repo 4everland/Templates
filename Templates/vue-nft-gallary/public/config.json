@@ -1,0 +1,64 @@
+{
+  "config": [
+    {
+      "name": "Website name",
+      "options": [
+        {
+          "type": "text",
+          "key": "title",
+          "value": "",
+          "placeholder": "Enter Website name"
+        }
+      ]
+    },
+    {
+      "name": "Logo",
+      "options": [
+        {
+          "type": "text",
+          "key": "logo",
+          "value": "",
+          "placeholder": "Enter logo URL",
+          "regExp": "^http"
+        }
+      ]
+    },
+    {
+      "name": "Bio",
+      "options": [
+        {
+          "type": "text",
+          "key": "bio",
+          "value": "",
+          "placeholder": "Enter the Bio",
+          "maxLen": 100
+        }
+      ]
+    },
+    {
+      "name": "BlockSPAN API Key",
+      "options": [
+        {
+          "type": "text",
+          "key": "spanApiKey",
+          "value": "",
+          "placeholder": "Get your API Key from https://blockspan.com",
+          "maxLen": 100
+        }
+      ]
+    },
+    {
+      "name": "Wallet Address",
+      "options": [
+        {
+          "type": "text",
+          "key": "walletAddr",
+          "value": "",
+          "placeholder": "Select which chains' NFTs are displayed",
+          "required": true,
+          "maxLen": 100
+        }
+      ]
+    }
+  ]
+}

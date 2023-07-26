@@ -1,0 +1,19 @@
+.trans-200 {
+  transition: all ease 200ms;
+}
+.trans-300 {
+  transition: all ease 300ms;
+}
+.up-down {
+  transform: rotateX(180deg);
+}
+
+.anim-show {
+  animation: anim_show 100ms linear infinite;
+}
+
+@keyframes anim_show {
+  100% {
+    transform: scale(0.8);
+  }
+}

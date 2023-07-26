@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    projectInfo: null,
+    projectInfo: {},
   },
   mutations: {
     SET_PROJECTINFO(state, info) {

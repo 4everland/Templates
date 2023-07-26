@@ -7,7 +7,7 @@ import "normalize.css/normalize.css";
 import "./utils/axios";
 
 Vue.config.productionTip = false;
-store.dispatch("getProjectInfo");
+await store.dispatch("getProjectInfo");
 
 new Vue({
   router,

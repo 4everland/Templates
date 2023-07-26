@@ -1,0 +1,36 @@
+@import 'flex';
+@import 'box';
+@import 'pos';
+@import 'text';
+@import 'anim';
+@import 'color';
+@import 'col';
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Aldrich", sans-serif;
+}
+
+.bdrs-2 { border-radius: 2px; }
+.bdrs-3 { border-radius: 3px; }
+.bdrs-5 { border-radius: 5px; }
+.bdrs-8 { border-radius: 8px; }
+.bdrs-10 { border-radius: 10px; }
+.bdrs-100 { border-radius: 100px; }
+
+$color1: #429efc;
+.color-1, .link {
+  color: $color1;
+}
+
+.hover-1:active {
+  opacity: .8;
+}
+
+.p-mb-1 {
+  p {
+    margin-bottom: 10px;
+  }
+}

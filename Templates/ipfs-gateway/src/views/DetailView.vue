@@ -43,10 +43,9 @@
               </div>
               <div class="Link">{{ item.link }}</div>
               <div class="Flag"><img :src="item.flag" alt="" width="16" /></div>
-              <div class="Took">{{ item.took ? item.took + "s" : "" }}</div>
+              <div class="Took">{{ item.took ? item.took + "ms" : "" }}</div>
               <div class="Download">
                 <img
-                  v-if="item.status"
                   src="@/assets/img/download.png"
                   alt=""
                   width="24"
@@ -64,12 +63,14 @@
 </template>
 <script>
 import { mapState } from "vuex";
-
 import { TokenBucketLimiter } from "@dutu/rate-limiter";
 import { lookup as IpfsGeoIpLookup } from "ipfs-geoip";
 
 // @ is an alias to /src
 const DEFAULT_IPFS_GATEWAY = "https://ipfs.io";
+const HASH_TO_TEST =
+  "bafkreiac2dxzdx334s7z3jhpcxtqrkgi5dm2qwaqe3shghrsqcyiv3532i";
+
 const googleLimiter = new TokenBucketLimiter({
   bucketSize: 1,
   tokensPerInterval: 1,
@@ -162,6 +163,7 @@ export default {
       const flag = await this.getFlag(host);
       let startTime = Date.now();
       let url = hostname + "/ipfs/" + cid;
+      let test_url = hostname + "/ipfs/" + HASH_TO_TEST;
       let Obj = {
         status: "",
         link: host,
@@ -171,14 +173,15 @@ export default {
         time: "",
       };
       await this.axios
-        .get(url)
+        .get(test_url)
         .then((res) => {
           let endTime = Date.now();
           let time = endTime - startTime;
+          const ms = time;
           const s = (time / 1000).toFixed(2);
           Obj.status = true;
           Obj.time = time;
-          Obj.took = s;
+          Obj.took = ms;
         })
         .catch((err) => {
           Obj.status = false;

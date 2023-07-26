@@ -1,6 +1,6 @@
 <template>
   <div class="home" ref="home">
-    <div class="title">IPFS Gateways</div>
+    <div class="title">{{ projectInfo.websiteName }}</div>
     <div class="int-box">
       <img src="@/assets/img/search.png" alt="" />
       <input
