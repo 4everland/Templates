@@ -1,0 +1,203 @@
+{ 
+   "config":[ 
+    {
+       "name": "Menu Name",
+       "options": [
+          {
+              "type":"text",
+              "key":"menuName",
+              "value":"Hyun 的私厨",
+              "placeholder":"Enter the menu name"
+          }
+       ],
+       "tag": "Website Basic Info"
+    },
+     {
+       "name": "Avatar",
+       "options": [
+          {
+              "type":"text",
+              "key":"avatar",
+              "value":"https://shuxia.4everland.store/avatar.jpeg",
+              "placeholder":"Enter the avatar"
+          }
+       ],
+       "tag": "Website Basic Info"
+
+    },
+    {
+       "name": "Bio",
+       "options": [
+          {
+              "type":"text",
+              "key":"bio",
+              "value":"欢迎来我家做客呀，想吃点啥？",
+              "placeholder":"Enter the bio"
+          }
+       ],
+       "tag": "Website Basic Info"
+
+    },
+     {
+       "name": "Menu",
+       "options": [
+          {
+              "type":"table",
+              "key":"menu",
+              "headers": [
+                {
+                  "text": "Dish name",
+                  "value": "name"
+                },
+                {
+                  "text": "Supply(y/n)",
+                  "value": "supply"
+                },
+                {
+                  "text": "Type",
+                  "value": "type"
+                },
+                {
+                  "text": "Bio",
+                  "value": "bio"
+                },
+                {
+                  "text": "Image",
+                  "value": "img"
+                }
+              ],
+              "items": [
+                {
+                  "name": "带着淡淡果香味的百香果排骨",
+                  "supply": "y",
+                  "type": "🐂 是肉肉啊",
+                  "bio": "甘甜，清香",
+                  "img": "https://shuxia.4everland.store/menu/1.png"
+                },               
+                {
+                  "name": "土豆炖鸡块",
+                  "supply": "y",
+                  "type": "🐂 是肉肉啊",
+                  "bio": "咸香，微辣",
+                  "img": "https://shuxia.4everland.store/menu/2.png"
+                },
+                {
+                  "name": "米饭终结者~小炒黄牛肉",
+                  "supply": "y",
+                  "type": "🐂 是肉肉啊",
+                  "bio": "中辣",
+                  "img": "https://shuxia.4everland.store/menu/3.png"
+                },               
+                {
+                  "name": "红烧鲈鱼",
+                  "supply": "y",
+                  "type": "🐟 海鲜大餐",
+                  "bio": "鲜香，微辣",
+                  "img": "https://shuxia.4everland.store/menu/4.png"
+                },
+                {
+                  "name": "超美味的油焖大虾",
+                  "supply": "y",
+                  "type": "🐟 海鲜大餐",
+                  "bio": "咸香",
+                  "img": "https://shuxia.4everland.store/menu/5.png"
+                },
+                {
+                  "name": "蒜蓉生蚝",
+                  "supply": "y",
+                  "type": "🐟 海鲜大餐",
+                  "bio": "鲜香",
+                  "img": "https://shuxia.4everland.store/menu/6.png"
+                },
+                {
+                  "name": "黄瓜木耳炒鸡蛋",
+                  "supply": "y",
+                  "type": "🥬 健康菜菜",
+                  "bio": "鲜香",
+                  "img": "https://shuxia.4everland.store/menu/7.png"
+                },
+                {
+                  "name": "凉拌藕片",
+                  "supply": "y",
+                  "type": "🥬 健康菜菜",
+                  "bio": "微辣",
+                  "img": "https://shuxia.4everland.store/menu/8.png"
+                },
+                {
+                  "name": "下饭菜~菜花炒肉",
+                  "supply": "y",
+                  "type": "🥬 健康菜菜",
+                  "bio": "咸香",
+                  "img": "https://shuxia.4everland.store/menu/9.png"
+                },        
+                {
+                  "name": "蛤蜊丝瓜汤",
+                  "supply": "y",
+                  "type": "🥣 汤汤水水",
+                  "bio": "高蛋白、高铁、高钙及低脂肪",
+                  "img": "https://shuxia.4everland.store/menu/10.png"
+                },        
+                {
+                  "name": "番茄金针菇豆腐汤",
+                  "supply": "y",
+                  "type": "🥣 汤汤水水",
+                  "bio": "味道鲜美",
+                  "img": "https://shuxia.4everland.store/menu/11.png"
+                },
+                {
+                  "name": "冬瓜丸子汤",
+                  "supply": "y",
+                  "type": "🥣 汤汤水水",
+                  "bio": "适合夏天吃，浓香不油腻",
+                  "img": "https://shuxia.4everland.store/menu/12.png"
+                },       
+                {
+                  "name": "可乐鸡翅骨",
+                  "supply": "n",
+                  "type": "🐂 是肉肉啊",
+                  "bio": "咸甜适中",
+                  "img": "https://shuxia.4everland.store/menu/13.png"
+                },        
+                {
+                  "name": "麻辣花蛤",
+                  "supply": "n",
+                  "type": "🐟 海鲜大餐",
+                  "bio": "味道鲜美，微辣",
+                  "img": "https://shuxia.4everland.store/menu/14.png"
+                },        
+                {
+                  "name": "蒜蓉粉丝蒸丝瓜",
+                  "supply": "n",
+                  "type": "🥬 健康菜菜",
+                  "bio": "适合夏天吃，鲜嫩入味",
+                  "img": "https://shuxia.4everland.store/menu/15.png"
+                },         
+                {
+                  "name": "丝瓜鲜菇汤",
+                  "supply": "y",
+                  "type": "🥣 汤汤水水",
+                  "bio": "清热解暑",
+                  "img": "https://shuxia.4everland.store/menu/16.png"
+                },         
+                {
+                  "name": "花雕醉鸡",
+                  "supply": "n",
+                  "type": "🐂 是肉肉啊",
+                  "bio": "酒香嫩弹",
+                  "img": "https://shuxia.4everland.store/menu/17.png"
+                },          
+                {
+                  "name": "苦瓜小炒",
+                  "supply": "n",
+                  "type": "🥬 健康菜菜",
+                  "bio": "清暑，微苦",
+                  "img": "https://shuxia.4everland.store/menu/18.png"
+                }
+    
+              ]
+          }
+       ],
+       "tag": "Menu Set"
+    }
+   ]
+}
