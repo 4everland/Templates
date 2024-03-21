@@ -55,6 +55,8 @@ export default {
           let configObj = {};
           let Arr = [];
           const { data } = res;
+          console.log(res);
+          console.log(data);
           data.config.forEach((item, index) => {
             let navObj = {};
             item.options.forEach((i) => {

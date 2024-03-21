@@ -54,7 +54,7 @@
         {
           "type": "text",
           "key": "topAd",
-          "value": "<img src='/horizontal.png' />",
+          "value": "",
           "placeholder": "Please enter the ad code in html format"
         }
       ],
@@ -66,7 +66,7 @@
         {
           "type": "text",
           "key": "leftAd",
-          "value": "<img src='/vertical.png' />",
+          "value": "",
           "placeholder": "Please enter the ad code in html format"
         }
       ],
@@ -78,7 +78,7 @@
         {
           "type": "text",
           "key": "rightAd",
-          "value": "<img src='/vertical.png' />",
+          "value": "",
           "placeholder": "Please enter the ad code in html format"
         }
       ],
@@ -90,7 +90,7 @@
         {
           "type": "text",
           "key": "bottomAd",
-          "value": "<img src='/horizontal.png' />",
+          "value": "atOptions = {key:'62bbd5ef2b775abb8daeed3d9a425d02',format:'iframe',height:600,width:160,params:{}}; var script = document.createElement('script'); script.type='text/javascript'; script.src='https://www.profitablecreativeformat.com/62bbd5ef2b775abb8daeed3d9a425d02/invoke.js'; document.body.appendChild(script);",
           "placeholder": "Please enter the ad code in html format"
         }
       ],

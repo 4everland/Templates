@@ -122,7 +122,7 @@
                         alt=""
                       />
                       <span class="mirror-nickname">{{
-                        item.author.name
+                        item.author?.name || ""
                       }}</span>
                     </span>
                     <span>
@@ -326,6 +326,7 @@ export default {
           } else {
             this.mirrorList = [item];
           }
+          console.log(this.mirrorList);
         })
         .catch((error) => {
           console.log(error);

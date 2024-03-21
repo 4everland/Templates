@@ -15,9 +15,9 @@
       </div>
     </div>
     <div class="body">
-      <div class="left-ad" v-html="projectInfo.leftAd"></div>
+      <!-- <div class="left-ad" v-html="projectInfo.leftAd"></div> -->
       <div class="main">
-        <div class="top-ad" v-html="projectInfo.topAd"></div>
+        <!-- <div class="top-ad" v-html="projectInfo.topAd"></div> -->
         <div class="table">
           <div class="table-head">
             <div class="Status">Online</div>
@@ -55,12 +55,13 @@
             </div>
           </div>
         </div>
-        <div class="bottom-ad" v-html="projectInfo.bottomAd"></div>
+        <div class="bottom-ad"></div>
       </div>
-      <div class="right-ad" v-html="projectInfo.rightAd"></div>
+      <!-- <div class="right-ad" v-html="projectInfo.rightAd"></div> -->
     </div>
   </div>
 </template>
+
 <script>
 import { mapState } from "vuex";
 import { TokenBucketLimiter } from "@dutu/rate-limiter";
@@ -113,6 +114,12 @@ export default {
   },
   mounted() {
     this.checkList();
+    this.$nextTick(() => {
+      this.createNode(this.projectInfo.topAd);
+      this.createNode(this.projectInfo.bottomAd);
+      this.createNode(this.projectInfo.leftAd);
+      this.createNode(this.projectInfo.rightAd);
+    });
   },
   methods: {
     onInput() {
@@ -323,6 +330,11 @@ export default {
     sortArr(arr) {
       return arr.sort(this.compare("time"));
     },
+    createNode(scriptTemplate) {
+      var script = document.createElement("script");
+      script.text = scriptTemplate;
+      document.body.appendChild(script);
+    },
   },
 };
 </script>
@@ -385,7 +397,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
+  padding: 40px;
   .left-ad {
   }
   .main {

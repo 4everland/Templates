@@ -6,7 +6,7 @@
         {
           "type": "text",
           "key": "avatar",
-          "value": "",
+          "value": "https://4everlogo.4everland.store/10242.png",
           "placeholder": "https://(100*100)"
         }
       ]
@@ -17,7 +17,7 @@
         {
           "type": "text",
           "key": "name",
-          "value": "",
+          "value": "4EVERLAND",
           "placeholder": "Enter the name"
         }
       ]
@@ -28,13 +28,13 @@
         {
           "type": "text",
           "key": "linkName1",
-          "value": "",
+          "value": "Website",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref1",
-          "value": "",
+          "value": "https://www.4everland.org/",
           "placeholder": "https://"
         }
       ]
@@ -45,13 +45,13 @@
         {
           "type": "text",
           "key": "linkName2",
-          "value": "",
+          "value": "Twitter",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref2",
-          "value": "",
+          "value": "https://twitter.com/4everland_org",
           "placeholder": "https://"
         }
       ]
@@ -62,13 +62,13 @@
         {
           "type": "text",
           "key": "linkName3",
-          "value": "",
+          "value": "Mirror",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref3",
-          "value": "",
+          "value": "https://mirror.xyz/0x9284aa0DE898295CeaA8704Aa20c3Db950460999",
           "placeholder": "https://"
         }
       ]
@@ -79,13 +79,13 @@
         {
           "type": "text",
           "key": "linkName4",
-          "value": "",
+          "value": "Discord",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref4",
-          "value": "",
+          "value": "https://discord.com/invite/4everland",
           "placeholder": "https://"
         }
       ]
@@ -96,13 +96,13 @@
         {
           "type": "text",
           "key": "linkName5",
-          "value": "",
+          "value": "Medium",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref5",
-          "value": "",
+          "value": "https://4everland.medium.com",
           "placeholder": "https://"
         }
       ]
@@ -113,13 +113,13 @@
         {
           "type": "text",
           "key": "linkName6",
-          "value": "",
+          "value": "Youtube",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref6",
-          "value": "",
+          "value": "https://www.youtube.com/channel/UC9gDft8jnTt_1yrtLfsUq0w",
           "placeholder": "https://"
         }
       ]
@@ -130,13 +130,13 @@
         {
           "type": "text",
           "key": "linkName7",
-          "value": "",
+          "value": "What's 4EVERLAND?",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref7",
-          "value": "",
+          "value": "https://www.youtube.com/watch?v=zXAUvWJlvrg",
           "placeholder": "https://"
         }
       ]
@@ -147,13 +147,13 @@
         {
           "type": "text",
           "key": "linkName8",
-          "value": "",
+          "value": "4EVERLAND One-page Overview",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref8",
-          "value": "",
+          "value": "https://twitter.com/4everland_org/status/1639115303111249920",
           "placeholder": "https://"
         }
       ]
@@ -164,13 +164,13 @@
         {
           "type": "text",
           "key": "linkName9",
-          "value": "",
+          "value": "4EVERLAND Roadmap V2",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref9",
-          "value": "",
+          "value": "https://twitter.com/4everland_org/status/1539505940889800704",
           "placeholder": "https://"
         }
       ]
@@ -181,13 +181,13 @@
         {
           "type": "text",
           "key": "linkName10",
-          "value": "",
+          "value": "4EVERLAND is an IPFS pinning service provider for Snapshot",
           "placeholder": "Enter the name"
         },
         {
           "type": "text",
           "key": "linkHref10",
-          "value": "",
+          "value": "https://twitter.com/SnapshotLabs/status/1567432510111629312",
           "placeholder": "https://"
         }
       ]
